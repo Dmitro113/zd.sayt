@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Випускна шапка">
+  <rect width="64" height="64" rx="16" fill="#f1ebfc"/>
+  <path d="M18 31v10c0 4.5 6 8 14 8s14-3.5 14-8V31L32 38z" fill="#14b8a6"/>
+  <polygon points="32,13 57,25 32,37 7,25" fill="#6d28d9"/>
+  <line x1="52" y1="27" x2="52" y2="42" stroke="#141414" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="52" cy="44" r="3.5" fill="#141414"/>
+</svg>

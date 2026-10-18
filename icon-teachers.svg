@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Шкільна дошка">
+  <rect width="64" height="64" rx="16" fill="#f1ebfc"/>
+  <line x1="20" y1="42" x2="15" y2="55" stroke="#141414" stroke-width="3" stroke-linecap="round"/>
+  <line x1="44" y1="42" x2="49" y2="55" stroke="#141414" stroke-width="3" stroke-linecap="round"/>
+  <rect x="9" y="12" width="46" height="30" rx="4" fill="#6d28d9"/>
+  <g stroke="#ffffff" stroke-width="3" stroke-linecap="round">
+    <line x1="16" y1="21" x2="38" y2="21"/>
+    <line x1="16" y1="28" x2="30" y2="28"/>
+    <line x1="16" y1="35" x2="42" y2="35"/>
+  </g>
+  <circle cx="46" cy="28" r="5" fill="#14b8a6"/>
+</svg>

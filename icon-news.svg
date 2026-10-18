@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Газета з зіркою">
+  <rect width="64" height="64" rx="16" fill="#f1ebfc"/>
+  <rect x="16" y="14" width="34" height="38" rx="5" fill="#d8c9f5"/>
+  <rect x="11" y="18" width="34" height="38" rx="5" fill="#ffffff" stroke="#6d28d9" stroke-width="3"/>
+  <rect x="17" y="24" width="22" height="7" rx="2" fill="#6d28d9"/>
+  <g stroke="#6b7280" stroke-width="3" stroke-linecap="round">
+    <line x1="17" y1="38" x2="39" y2="38"/>
+    <line x1="17" y1="45" x2="31" y2="45"/>
+  </g>
+  <polygon points="49,8 52,16 60,19 52,22 49,30 46,22 38,19 46,16" fill="#14b8a6"/>
+</svg>
