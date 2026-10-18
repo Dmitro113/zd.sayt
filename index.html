@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Сайт вчителя інформатики: швидкий доступ до матеріалів і ресурсів для учнів, батьків і вчителів.">
+  <title>Головна — Назва сайту</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Шапка (генерується в script.js) -->
+  <header class="header" id="site-header"></header>
+
+  <main>
+
+    <!-- Банер -->
+    <section class="hero hero--photo">
+      <div class="hero__media">
+        <img src="img/photo-lab.jpg" width="1080" height="1080" fetchpriority="high"
+             alt="Неонова стіна комп'ютерного класу: діти, процесори та слова про програмування">
+      </div>
+      <div class="container">
+        <div class="hero__text">
+          <span class="eyebrow">Сайт вчителя інформатики</span>
+          <h1>Усе для уроків інформатики&nbsp;— в&nbsp;одному&nbsp;місці</h1>
+          <p>Швидкий доступ до матеріалів і ресурсів для учнів, батьків та вчителів: підручники, програми, завдання, ігри й корисні посилання з 5 по 9 клас.</p>
+          <div class="hero__actions">
+            <a href="students-parents.html" class="btn">Учням і батькам</a>
+            <a href="teachers.html" class="btn btn--ghost">Вчителям</a>
+          </div>
+          <ul class="pills">
+            <li>5–9 класи</li>
+            <li>Підручники й програми</li>
+            <li>Відеоуроки, ігри, тести</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Сайт у цифрах (числа рахуються в script.js зі списків GRADES і RESOURCES) -->
+    <section class="stats" aria-label="Сайт у цифрах">
+      <div class="container">
+        <ul class="stats__list" data-stats>
+          <li class="stat"><strong data-stat="grades">5</strong><span data-label="grades">класів</span></li>
+          <li class="stat"><strong data-stat="resources">46</strong><span data-label="resources">ресурсів</span></li>
+          <li class="stat"><strong data-stat="official">14</strong><span data-label="official">офіційних ресурсів</span></li>
+          <li class="stat"><strong data-stat="sites">24</strong><span data-label="sites">сайти-джерела</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Навіщо цей сайт -->
+    <section class="section">
+      <div class="container split">
+        <div class="split__text">
+          <span class="kicker">Про сайт</span>
+          <h2>Навіщо цей сайт</h2>
+          <p>Цей сайт створено, щоб усе потрібне до уроків інформатики було під рукою. Замість того щоб шукати підручники, програми й завдання на різних сторінках і в чатах, ви відкриваєте одне місце — і знаходите все за класом та розділом.</p>
+          <p>Тут зручно учневі, який готується до уроку, батькам, які хочуть допомогти вдома, і вчителю, якому потрібні програми та планування.</p>
+          <ul class="checklist">
+            <li><strong>Швидко.</strong> Потрібний матеріал — за кілька кліків.</li>
+            <li><strong>Зрозуміло.</strong> Усе розкладено за класами та розділами.</li>
+            <li><strong>Надійно.</strong> Посилання на офіційні джерела: <a href="https://mon.gov.ua/" target="_blank" rel="noopener noreferrer">МОН</a>, <a href="https://lms.e-school.net.ua/" target="_blank" rel="noopener noreferrer">Всеукраїнська школа онлайн</a>, <a href="https://osvita.diia.gov.ua/" target="_blank" rel="noopener noreferrer">Дія.Освіта</a>, <a href="https://cyberpolice.gov.ua/" target="_blank" rel="noopener noreferrer">Кіберполіція</a> і видавництво «<a href="https://www.geneza.ua/" target="_blank" rel="noopener noreferrer">Генеза</a>». Усі джерела&nbsp;— <a href="#sources">у&nbsp;розділі нижче</a>.</li>
+          </ul>
+        </div>
+        <figure class="photo">
+          <img src="img/photo-classroom.jpg" width="1200" height="674" loading="lazy"
+               alt="Світлий шкільний клас із партами, дошкою та рюкзаками">
+        </figure>
+      </div>
+    </section>
+
+    <!-- Учням і батькам -->
+    <section class="section section--alt">
+      <div class="container split split--reverse">
+        <div class="split__text">
+          <img class="role-icon" src="img/icon-students.svg" width="56" height="56" alt="">
+          <h2>Учням і батькам</h2>
+          <p>Готуйтеся до уроків і закріплюйте вивчене у своєму темпі. Батьки завжди можуть побачити, що вивчає дитина, і підтримати її вдома.</p>
+          <ul class="checklist">
+            <li>Розвиваючі ігри та цікаві завдання</li>
+            <li>Розклад занять</li>
+            <li>Підручники й матеріали до уроків</li>
+            <li>Відеоуроки</li>
+            <li>Тести та практичні завдання</li>
+            <li>Корисні посилання</li>
+          </ul>
+          <a href="students-parents.html" class="btn">До матеріалів для учнів і батьків</a>
+        </div>
+        <figure class="photo">
+          <img src="img/photo-students.jpg" width="600" height="482" loading="lazy"
+               alt="Веселі діти в класі: піднімають руки та збираються до уроку">
+        </figure>
+      </div>
+    </section>
+
+    <!-- Вчителям -->
+    <section class="section">
+      <div class="container split">
+        <div class="split__text">
+          <img class="role-icon" src="img/icon-teachers.svg" width="56" height="56" alt="">
+          <h2>Вчителям</h2>
+          <p>Усе для підготовки до уроку зібрано за класами, з посиланнями на офіційні джерела — щоб не витрачати час на пошуки.</p>
+          <ul class="checklist">
+            <li>Модельні навчальні програми</li>
+            <li>Календарно-тематичне планування</li>
+            <li>Підручники та методичні матеріали</li>
+            <li>Корисні сайти й ресурси</li>
+          </ul>
+          <a href="teachers.html" class="btn">До матеріалів для вчителів</a>
+        </div>
+        <figure class="photo">
+          <img src="img/photo-teacher.jpg" width="689" height="445" loading="lazy"
+               alt="Вчителька з книгою та учні у класі">
+        </figure>
+      </div>
+    </section>
+
+    <!-- Як користуватися -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Як це працює</span>
+          <h2>Три кроки до потрібного матеріалу</h2>
+        </div>
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">1</span>
+            <h3>Оберіть свою роль</h3>
+            <p>«Учням/Батькам» або «Вчителям» — у меню вгорі чи нижче на цій сторінці.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">2</span>
+            <h3>Виберіть клас</h3>
+            <p>Від 5 до 9 класу: для кожного є окремий набір розділів.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">3</span>
+            <h3>Відкрийте потрібне</h3>
+            <p>Ігри, відеоуроки, тести — для учнів; програми, підручники й планування — для вчителів.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Швидкий вибір класу -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Швидкий перехід</span>
+          <h2>Оберіть клас</h2>
+          <p>Один клік — і ви одразу в потрібних розділах.</p>
+        </div>
+        <ul class="grades">
+          <li class="grade">
+            <span class="grade__num">5</span><span class="grade__label">клас</span>
+            <a href="students/5/index.html">Учням/Батькам</a>
+            <a href="teachers/5/index.html">Вчителям</a>
+          </li>
+          <li class="grade">
+            <span class="grade__num">6</span><span class="grade__label">клас</span>
+            <a href="students/6/index.html">Учням/Батькам</a>
+            <a href="teachers/6/index.html">Вчителям</a>
+          </li>
+          <li class="grade">
+            <span class="grade__num">7</span><span class="grade__label">клас</span>
+            <a href="students/7/index.html">Учням/Батькам</a>
+            <a href="teachers/7/index.html">Вчителям</a>
+          </li>
+          <li class="grade">
+            <span class="grade__num">8</span><span class="grade__label">клас</span>
+            <a href="students/8/index.html">Учням/Батькам</a>
+            <a href="teachers/8/index.html">Вчителям</a>
+          </li>
+          <li class="grade">
+            <span class="grade__num">9</span><span class="grade__label">клас</span>
+            <a href="students/9/index.html">Учням/Батькам</a>
+            <a href="teachers/9/index.html">Вчителям</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Джерела -->
+    <section class="section section--alt" id="sources">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Джерела</span>
+          <h2>Звідки взято матеріали</h2>
+          <p>Ми посилаємося на офіційні сайти та перевірені освітні платформи. Усі посилання відкриваються в новій вкладці.</p>
+        </div>
+        <div class="source-groups">
+          <div class="source-group">
+            <h3>Офіційні та державні</h3>
+            <p>Програми, підручники, відеоуроки й безпека в мережі.</p>
+            <ul class="chips">
+              <li><a class="chip" href="https://mon.gov.ua/" target="_blank" rel="noopener noreferrer">МОН України</a></li>
+              <li><a class="chip" href="https://lms.e-school.net.ua/" target="_blank" rel="noopener noreferrer">Всеукраїнська школа онлайн</a></li>
+              <li><a class="chip" href="https://osvita.diia.gov.ua/" target="_blank" rel="noopener noreferrer">Дія.Освіта</a></li>
+              <li><a class="chip" href="https://cyberpolice.gov.ua/" target="_blank" rel="noopener noreferrer">Кіберполіція</a></li>
+              <li><a class="chip" href="https://stopfraud.gov.ua/" target="_blank" rel="noopener noreferrer">Кібербрама</a></li>
+              <li><a class="chip" href="https://www.geneza.ua/" target="_blank" rel="noopener noreferrer">Видавництво «Генеза»</a></li>
+            </ul>
+          </div>
+          <div class="source-group">
+            <h3>Навчальні платформи</h3>
+            <p>Тести, курси та тренажери.</p>
+            <ul class="chips">
+              <li><a class="chip" href="https://naurok.com.ua/" target="_blank" rel="noopener noreferrer">На Урок</a></li>
+              <li><a class="chip" href="https://vseosvita.ua/" target="_blank" rel="noopener noreferrer">Всеосвіта</a></li>
+              <li><a class="chip" href="https://prometheus.org.ua/" target="_blank" rel="noopener noreferrer">Prometheus</a></li>
+              <li><a class="chip" href="https://uk.khanacademy.org/" target="_blank" rel="noopener noreferrer">Khan Academy</a></li>
+              <li><a class="chip" href="https://www.ratatype.com/" target="_blank" rel="noopener noreferrer">Ratatype</a></li>
+            </ul>
+          </div>
+          <div class="source-group">
+            <h3>Ігри та програмування</h3>
+            <p>Навчання через гру й творчість.</p>
+            <ul class="chips">
+              <li><a class="chip" href="https://scratch.mit.edu/" target="_blank" rel="noopener noreferrer">Scratch</a></li>
+              <li><a class="chip" href="https://blockly.games/" target="_blank" rel="noopener noreferrer">Blockly Games</a></li>
+              <li><a class="chip" href="https://wordwall.net/" target="_blank" rel="noopener noreferrer">Wordwall</a></li>
+              <li><a class="chip" href="https://hourofcode.com/" target="_blank" rel="noopener noreferrer">Година коду</a></li>
+              <li><a class="chip" href="https://beinternetawesome.withgoogle.com/" target="_blank" rel="noopener noreferrer">Interland</a></li>
+              <li><a class="chip" href="https://www.bebras.org/" target="_blank" rel="noopener noreferrer">Bebras</a></li>
+            </ul>
+          </div>
+          <div class="source-group">
+            <h3>Цікавинки</h3>
+            <p>Історія й новини світу інформатики.</p>
+            <ul class="chips">
+              <li><a class="chip" href="https://uk.wikipedia.org/" target="_blank" rel="noopener noreferrer">Вікіпедія</a></li>
+              <li><a class="chip" href="https://www.ukrinform.ua/" target="_blank" rel="noopener noreferrer">Укрінформ</a></li>
+              <li><a class="chip" href="https://dev.ua/" target="_blank" rel="noopener noreferrer">DEV.UA</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="sources__note">Навчальні матеріали на зовнішніх сайтах належать їхнім авторам. Платформи, де матеріали створюють самі вчителі («На Урок», «Всеосвіта»), варто звіряти з програмою свого класу.</p>
+      </div>
+    </section>
+
+    <!-- Новинки -->
+    <section class="band">
+      <div class="container band__inner">
+        <img src="img/icon-news.svg" width="64" height="64" alt="">
+        <div class="band__text">
+          <h2>Новинки та цікавинки</h2>
+          <p>Свіжі новини, корисні знахідки й цікаві факти зі світу інформатики.</p>
+        </div>
+        <a href="news.html" class="btn btn--light">Читати новинки</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Підвал (генерується в script.js) -->
+  <footer class="footer" id="site-footer"></footer>
+
+</body>
+</html>
